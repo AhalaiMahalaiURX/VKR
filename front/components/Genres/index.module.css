@@ -1,0 +1,35 @@
+.genreContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 8px;
+  accent-color: #5cb85c;
+}
+
+.checkbox:checked + span::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #5cb85c;
+}
+
+.checkbox + span::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}

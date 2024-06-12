@@ -1,0 +1,18 @@
+.descriptionContainer {
+  background-color: #fff;
+  border: 1px solid #14c8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  color: #14c8f0;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}

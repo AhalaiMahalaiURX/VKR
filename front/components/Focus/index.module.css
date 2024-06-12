@@ -1,0 +1,28 @@
+.dropdown {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1em;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.p-dropdown .p-dropdown-trigger .p-button-icon {
+  color: #333;
+}
+
+.p-dropdown.p-focus .p-dropdown-trigger .p-button-icon {
+  color: #14c8f0;
+}
+
+.p-dropdown .p-dropdown-trigger .p-button-icon.pi-angle-down:before {
+  content: "\\e913";
+}
+
+.p-dropdown.p-dropdown-open
+  .p-dropdown-trigger
+  .p-button-icon.pi-angle-down:before {
+  content: "\\e912";
+}

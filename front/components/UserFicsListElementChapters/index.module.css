@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: gray;
+}
+.link:hover {
+  color: #fff;
+}
+
+.element:hover {
+  cursor: pointer;
+  background: #14c8f0;
+  padding: 6px;
+}

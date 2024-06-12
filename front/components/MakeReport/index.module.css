@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: rgba(17, 120, 255, 0.8);
+  color: #fff;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: blue;
+}

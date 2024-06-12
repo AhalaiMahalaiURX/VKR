@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 80px; /
+}
+
+.params {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.params h3 {
+  margin-bottom: 10px;
+}
+
+.param {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.param:last-child {
+  margin-bottom: 0;
+}
+
+.param:hover,
+.param.selected {
+  background-color: #14c8f0;
+  color: #fff;
+}

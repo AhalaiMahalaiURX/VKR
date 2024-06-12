@@ -1,0 +1,26 @@
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rate {
+  margin-bottom: 20px;
+}
+
+.btnProp {
+  display: flex;
+}
+
+.btn {
+  background: #14fc;
+  color: #fff;
+  border: 1px solid #14fc;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.tableContainer {
+  background-color: #fff;
+  border: 1px solid #14c8f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.chapterRow {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #14c8f0;
+}
+
+.chapterRow:last-child {
+  border-bottom: none;
+}
+
+.chapterNumber {
+  color: #14c8f0;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.chapterTitle {
+  color: #333;
+  flex-grow: 1;
+}

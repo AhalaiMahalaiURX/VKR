@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chapter {
+  display: flex;
+  max-width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ftrPanel button {
+  margin-right: 20px;
+  height: 30px;
+  background: #14c8f0;
+  border: 1px solid #14c8f0;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.ftrPanel button:hover {
+  background: #1489f0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ftrPanel button i {
+  margin-right: 5px;
+}

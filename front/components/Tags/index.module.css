@@ -1,0 +1,39 @@
+.tagsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectedTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.availableTags {
+  border: 1px solid #ccc;
+  padding: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.tagItem {
+  padding: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.tagItem:hover {
+  background-color: #14c8f0;
+  color: #fff;
+}
+
+.pi-times {
+  cursor: pointer;
+}
+
+.pi-times:hover {
+  color: red;
+}

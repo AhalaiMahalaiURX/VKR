@@ -1,0 +1,46 @@
+.chapterEditor {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chapterEditor .toolbar {
+  margin-bottom: 10px;
+}
+
+.chapterEditor .toolbar button {
+  margin-right: 5px;
+}
+
+.chapterEditor input[type="text"],
+.chapterEditor textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.chapterEditor button {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button:hover {
+  background-color: #4cae4c;
+}
